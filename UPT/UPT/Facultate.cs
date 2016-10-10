@@ -8,6 +8,15 @@ namespace UPT
 {
     public class Facultate : iFacultate
     {
+        
+        private List<string> _materii;
+
+        public List<string> Materii
+        {
+            get { return _materii; }
+            set { _materii = value; }
+        }
+
         private List<Student> studenti;
 
         void iFacultate.setAn()
@@ -25,7 +34,7 @@ namespace UPT
             throw new NotImplementedException();
         }
 
-        void iFacultate.setMaterii()
+        void iFacultate.setMaterii(List<Materie> materii)
         {
             throw new NotImplementedException();
         }

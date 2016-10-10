@@ -12,6 +12,6 @@ namespace UPT
         void setFacultate();
         void setGrupa();
         void setSubGrupa();
-        void setMaterii();
+        void setMaterii(List<Materie> materii);
     }
 }

@@ -59,6 +59,7 @@
     <Compile Include="Facultate.cs" />
     <Compile Include="iErasmus.cs" />
     <Compile Include="iOrarStudenti.cs" />
+    <Compile Include="Materie.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Recontractare.cs" />
     <Compile Include="Student.cs" />
