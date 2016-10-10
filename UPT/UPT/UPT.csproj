@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Extensie.cs" />
+    <Compile Include="Facultate.cs" />
+    <Compile Include="iErasmus.cs" />
+    <Compile Include="iOrarStudenti.cs" />
+    <Compile Include="Profesor.cs" />
+    <Compile Include="Recontractare.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Universitate.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,6 +71,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Bursa.cs" />
+    <Compile Include="iFacultate.cs" />
+    <Compile Include="iOrarProfesor.cs" />
+    <Compile Include="iSituatie.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

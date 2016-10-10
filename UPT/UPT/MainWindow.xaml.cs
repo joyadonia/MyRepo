@@ -23,6 +23,7 @@ namespace UPT
         public MainWindow()
         {
             InitializeComponent();
+            MessageBox.Show("Hurrrrra!");
         }
     }
 }
